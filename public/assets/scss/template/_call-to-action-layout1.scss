@@ -1,0 +1,57 @@
+/*-------------------------
+   Call To Action layout1 Styles
+-------------------------*/
+
+
+
+.call-to-action-layout1{
+   padding: 114px 0 100px;
+   .call-to-action-area{
+      .call-to-action-bg{
+         background-color: #86E7B8;
+         border-radius: 32px;
+         position: relative;
+         .call-to-action-content-wrp{
+            text-align: center;
+            padding: 92px 0 93px;
+            .call-to-action-title{
+               margin-bottom: 65px;
+               h1{
+                  font-size: 48px;
+                  font-weight: 600;
+                  line-height: 60px;
+                  font-family: var(--font-primary-8);
+                  color: var(--color-ash);
+                  margin: 0;
+               }
+            }
+            .contact-btn{
+               a{
+                  font-size: 18px;
+                  font-weight: 600;
+                  line-height: 26px;
+                  font-family: var(--font-secondary);
+                  color: var(--color-white);
+                  background-color: var(--color-ash);
+                  padding: 18px 35px;
+                  border-radius: 6px;
+                  &:hover{
+                     background-color: var(--color-white);
+                     color: var(--color-ash);
+                     transition: var(--transition);
+                  }
+               }
+            }
+         }
+         .call-to-action-bg-shape-1{
+            position: absolute;
+            top: 0;
+         }
+         .call-to-action-bg-shape-2{
+            position: absolute;
+            top: 20%;
+            right: 12%;
+         }
+      }
+   }
+}

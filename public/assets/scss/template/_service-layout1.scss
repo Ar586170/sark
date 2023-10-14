@@ -1,0 +1,107 @@
+/*-------------------------
+   Service-Layout-1 Styles
+-------------------------*/
+
+
+
+.service-layout1{
+   padding: 148px 0 148px 0;
+   .service-area{
+      position: relative;
+      .sevice-img-1{
+         position: relative;
+         .play-btn{
+            position: absolute;
+            top: 36%;
+            left: 44%;
+            a{
+               font-size: 17px;
+               color: var(--color-ash);
+               border-radius: 50%;
+               padding: 18px 25px 18px 25px;
+               background-color: var(--color-white);
+               i{
+                  position: relative;
+                  top: 2px;
+                  left: 2px;
+               }
+               &:hover{
+                  background-color: #86E7B8;
+                  transition: var(--transition);
+               }
+            }
+         }
+         .demo-video-btn{
+            position: absolute;
+            top: 81%;
+            left: 33%;
+            a{
+               padding: 12px 30px;
+               border-radius: 12px;
+               border: 2px solid var(--color-ash);
+               background-color: var(--color-white);
+               i{
+                  font-size: 14px;
+                  font-weight: 600;
+                  position: relative;
+                  color: var(--color-ash);
+               }
+               span{
+                  font-size: 12.71px;
+                  font-weight: 600;
+                  line-height: 19.07px;
+                  font-family: var(--font-secondary);
+                  color: var(--color-ash);
+                  margin-left: 15px;
+               }
+            }
+         }
+         .service-shape-1{
+            position: absolute;
+            top: 66%;
+            right: 50px;
+         }
+      }
+      .service-details-wrp{
+         padding: 0 0 0 105px;
+         .service-title{
+            margin-bottom: 60px;
+            h2{
+               font-size: 48px;
+               font-weight: 600;
+               line-height: 60px;
+               font-family: var(--font-primary-8);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .service-details-title{
+            margin-bottom: 18px;
+            h4{
+               font-size: 21px;
+               font-weight: 600;
+               line-height: 26px;
+               font-family: var(--font-primary-8);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .service-details{
+            margin-bottom: 40px;
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+      }
+      .service-shape-2{
+         position: absolute;
+         top: 72px;
+         left: 276px;
+      }
+   }
+}

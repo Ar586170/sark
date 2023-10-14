@@ -1,0 +1,47 @@
+/*-------------------------
+Case-Studay-Layout-2 Styles
+-------------------------*/
+
+
+.case-study-layout-2{
+	padding: 0 0 145px;
+	.case-study-2-featured-area{
+		.case-study-2-details-wrp{
+         padding: 40px 0 0 0;
+         .case-studay-2-title{
+            margin-bottom: 35px;
+            h2{
+               font-size: 48px;
+               font-weight: 600;
+               line-height: 60px;
+               font-family: var(--font-primary-8);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .case-study-2-details-1{
+            margin-bottom: 25px;
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .case-study-2-details-2{
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+      }
+      .case-study-1-featured-img{
+      }
+	}
+}

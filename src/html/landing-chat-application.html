@@ -1,0 +1,45 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Sark{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout4.html' %}
+
+
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout3.html' %}
+
+
+
+
+
+{% endblock %}

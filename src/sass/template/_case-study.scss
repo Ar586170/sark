@@ -1,0 +1,255 @@
+/*-------------------------
+Case-Studay-Layout Styles
+-------------------------*/
+
+
+.case-study-layout-1{
+   padding: 0 0 140px;
+   .case-study-1-featured-area{
+      .case-study-1-featured-img{
+      }
+      .case-study-1-details-wrp{
+         padding: 40px 0 0 130px;
+         .case-studay-1-title{
+            margin-bottom: 35px;
+            h2{
+               font-size: 48px;
+               font-weight: 600;
+               line-height: 60px;
+               font-family: var(--font-primary-8);
+               color: var(--color-ash);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 30px;
+                  line-height: 45px;
+               }
+            }
+            @media #{$smlg-device}{
+               margin-bottom: 20px;
+            }
+         }
+         .case-study-1-details-1{
+            margin-bottom: 25px;
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 12px;
+                  line-height: 22px;
+               }
+            }
+            @media #{$smlg-device}{
+               margin-bottom: 18px;
+            }
+         }
+         .case-study-1-details-2{
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 12px;
+                  line-height: 22px;
+               }
+            }
+         }
+         @media #{$smlg-device}{
+            padding: 25px 0 0 130px;
+         }
+      }
+   }
+}
+
+
+.case-study-layout-2{
+   padding: 0 0 145px;
+   .case-study-2-featured-area{
+      .case-study-2-details-wrp{
+         padding: 40px 0 0 0;
+         .case-studay-2-title{
+            margin-bottom: 35px;
+            h2{
+               font-size: 48px;
+               font-weight: 600;
+               line-height: 60px;
+               font-family: var(--font-primary-8);
+               color: var(--color-ash);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 30px;
+                  line-height: 45px;
+               }
+            }
+            @media #{$smlg-device}{
+               margin-bottom: 20px;
+            }
+         }
+         .case-study-2-details-1{
+            margin-bottom: 25px;
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 12px;
+                  line-height: 22px;
+               }
+            }
+            @media #{$smlg-device}{
+               margin-bottom: 18px;
+            }
+         }
+         .case-study-2-details-2{
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 12px;
+                  line-height: 22px;
+               }
+            }
+         }
+         @media #{$smlg-device}{
+            padding: 25px 0 0 0;
+         }
+      }
+      .case-study-1-featured-img{
+      }
+   }
+}
+
+.case-study-layout-3{
+   .case-study-3{
+      background-color: #CDEEFF;
+      padding: 164px 0 108px;
+      position: relative;
+      .case-study-3-featured-img{
+         img{
+
+         }
+      }
+      .case-studay-3-details-wrp{
+         padding: 30px 0 0 154px;
+         .case-study-3-title{
+            margin-bottom: 32px;
+            h1{
+               font-size: 52px;
+               font-weight: 700;
+               line-height: 60px;
+               font-family: var(--font-primary-5);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .case-study-3-subtitle{
+            margin-bottom: 24px;
+            p{
+               font-size: 18px;
+               font-weight: 500;
+               line-height: 30px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .case-study-3-details{
+            p{
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 26px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+      }
+      .case-study-3-bg-shape{
+         position: absolute;
+         top: 0;
+         right: 0;
+      }
+   }
+}
+
+
+
+.case-study-layout-4{
+   padding: 76px 0 133px;
+   .landing-3-case-study-area{
+      .case-study-4-title{
+         margin-bottom: 30px;
+         h1{
+            margin: 0;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56px;
+            font-family: var(--font-primary-4);
+            color: var(--color-black);
+         }
+      }
+      .case-study-4-details{
+         p{
+            margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            font-family: var(--font-secondary);
+            color: var(--color-ash);
+         }
+      }
+   }
+}
+
+
+
+
+
+.case-study-layout-5{
+   background: #FAFAFA;
+   padding: 134px 0 113px;
+   .landing-3-case-study-2-area{
+      position: relative;
+      .case-study-5-details-wrp{
+         padding: 0 0 0 100px;
+         .case-study-5-title{
+            margin-bottom: 30px;
+            h1{
+               margin: 0;
+               font-size: 48px;
+               font-weight: 700;
+               line-height: 56px;
+               font-family: var(--font-primary-4);
+               color: var(--color-black);
+            }
+         }
+         .case-study-5-details{
+            p{
+               margin: 0;
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 26px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+            }
+         }
+      }
+      .case-study-5-shape{
+         position: absolute;
+         top: -134px;
+      }
+   }
+}

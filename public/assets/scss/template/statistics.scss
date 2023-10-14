@@ -1,0 +1,66 @@
+/*-------------------------
+   Statistics Styles
+-------------------------*/
+
+
+
+.statistics-layout1{
+   .statistics-1{
+      background-color: #CDEEFF;
+      position: relative;
+      .statistics-details-wrp{
+         padding: 169px 0 164px;
+         .statistics-title{
+            margin-bottom: 21px;
+            h1{
+               font-size: 52px;
+               font-weight: 700;
+               line-height: 60px;
+               font-family: var(--fpnt-primary-5);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .statistics-details{
+            margin-bottom: 47px;
+            p{
+               font-size: 18px;
+               font-weight: 500;
+               line-height: 30px;
+               font-family: var(--fpnt-primary-5);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .statistics-list{
+            ul{
+               li{
+                  margin-bottom: 17px;
+                  a{
+                     i{
+                        font-size: 20px;
+                        color: var(--color-ash);
+                        margin-right: 20px;
+                     }
+                     span{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        font-family: var(--fpnt-primary-5);
+                        color: var(--color-ash);
+                     }
+                  }
+               }
+            }
+         }
+      }
+      .statistics-img{
+         padding: 140px 0 0 0;
+      }
+      .statistics-bg-shape{
+         position: absolute;
+         top: 0;
+         right: 0;
+      }
+   }
+}

@@ -1,0 +1,332 @@
+/*-------------------------
+   Pricing
+-------------------------*/
+
+.pricing-area{
+    padding: 0 0 110px;
+    .section-heading{
+        .title{
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            font-family: var(--font-primary-8);
+            color: var(--color-ash);
+        }
+    }
+    .pricing-table {
+        background-color: var(--color-mercury);
+        padding: 40px;
+        border-radius: 30px;
+        position: relative;
+        margin-bottom: 30px;
+        transition: var(--transition);
+        @media #{$lg-layout} {
+            padding: 40px 15px;
+        }
+        @media #{$large-mobile} {
+            padding: 40px 30px;
+        }
+        .pricing-header {
+            border-bottom: 1px solid rgba(227, 230, 233, 1);
+            .title {
+                color: var(--color-ash);
+                font-weight: 600;
+                font-size: 20px;
+                margin-bottom: 8px;
+                line-height: 28px;
+                font-family: var(--font-secondary);
+                transition: var(--transition);
+                @media #{$smlg-device} {
+                    font-size: 36px;
+                }
+                @media #{$large-mobile} {
+                    font-size: 30px;
+                }
+            }
+            .price-wrap {
+                padding-top: 50px;
+                margin-bottom: 30px;
+                font-family: var(--font-primary);
+                transition: var(--transition);
+                .amount {
+                    font-size: 64px;
+                    line-height: 1;
+                    color: var(--color-text-dark);
+                    font-weight: 500;
+                    letter-spacing: -0.045em;
+                    transition: var(--transition);
+                    @media #{$smlg-device} {
+                        font-size: 50px;
+                    }
+                    @media only screen and (min-width: 1200px) and (max-width: 1599px) {
+                        font-size: 40px;
+                    }
+                }
+                .duration {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: var(--color-gray-2);
+                    margin-left: 8px;
+                    transition: var(--transition);
+                }
+                .yearly-pricing {
+                    display: none;
+                }
+            }
+        }
+        .pricing-body {
+            margin: 30px 0 45px 0;
+            li {
+                padding: 12px 0;
+                color: var(--color-ash);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                font-family: var(--font-secondary);
+                padding-left: 34px;
+                position: relative;
+                transition: var(--transition);
+                &:before {
+                    content: "\f058";
+                    font-family: var(--font-awesome);
+                    font-weight: 900;
+                    font-size: 22px;
+                    position: absolute;
+                    top: 9px;
+                    left: 0;
+                    color: #86E7B8;
+                }
+            }
+        }
+        .pricing-btn{
+            margin-bottom: 50px;
+          a{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 30px;
+            font-family: var(--font-secondary);
+            color: var(--color-ash);
+            border: 2px solid var(--color-ash);
+            padding: 6px 45px;
+            border-radius: 4px;
+          }
+        }
+        .star-icon {
+            height: 48px;
+            width: 48px;
+            line-height: 48px;
+            text-align: center;
+            color: var(--color-primary);
+            background-color: var(--color-accent1);
+            border-radius: 50%;
+            position: absolute;
+            top: 8px;
+            right: 10px;
+        }
+        &:hover, &.active {
+            background-color: var(--color-ash);
+            .pricing-header {
+                .title {
+                    color: var(--color-white);
+                }
+                .subtitle {
+                    color: var(--color-white);
+                }
+                .price-wrap {
+                    border-color: rgba(227, 230, 233, .2);
+                    .amount {
+                        color: var(--color-white);
+                    }
+                    .duration {
+                        color: var(--color-white);
+                    }
+                }
+                .axil-btn {
+                    background-color: var(--color-white);
+                    border-color: var(--color-white);
+                    color: var(--color-dark);
+                    &:hover {
+                        background-color: var(--color-accent1);
+                        border-color: var(--color-accent1);
+                        color: var(--color-white);
+                    }
+                }
+            }
+            .pricing-body {
+                li {
+                    color: var(--color-white);
+                }
+            }
+        }
+        &.pricing-borderd {
+            border: var(--border-light);
+        }
+    }
+
+    .pricing-billing-duration {
+        text-align: center;
+        ul {
+            list-style: none;
+            padding: 5px;
+            margin-bottom: 60px;
+            border-bottom: none;
+            display: inline-flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: var(--color-white);
+            border-radius: 110px;
+            .nav-item {
+                margin-right: 10px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            .nav-link {
+                color: var(--color-ash);
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                font-family: var(--font-secondary);
+                background-color: transparent;
+                border: none;
+                border-radius: 12px;
+                padding: 14px 30px;
+                &.active {
+                    background-color: #86E7B8;
+                    color: var(--color-ash);
+                }
+                @media #{$large-mobile} {
+                    font-size: 15px;
+                    padding: 12px 25px;
+                }
+            }
+            .billed-check-box {
+                display: flex;
+                align-items: center;
+                input {
+                    height: 0;
+                    width: 0;
+                    visibility: hidden;
+                }
+                label {
+                    cursor: pointer;
+                    width: 56px;
+                    height: 24px;
+                    background-color: var(--color-primary);
+                    border-radius: 12px;
+                    position: relative;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: 4px;
+                        left: 4px;
+                        width: 16px;
+                        height: 16px;
+                        background-color: var(--color-white);
+                        border-radius: 50%;
+                        transition: var(--transition);
+                    }
+                }
+                input:checked + label:after {
+                    left: calc(100% - 4px);
+                    transform: translateX(-100%);
+                }
+            }
+        }
+    }
+}
+
+
+
+.pricing-layout2{
+    padding: 70px 0 70px;
+    .pricing-layout-2-area{
+        .landing-security-pricing-title-wrp{
+            margin-bottom: 60px;
+            .landing-security-pricing-title{
+                margin-bottom: 30px;
+                h1{
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 56px;
+                    font-family: var(--font-primary-4);
+                    color: var(--color-black);
+                    margin: 0;
+                }
+            }
+            .landing-security-pricing-sub-title{
+                span{
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    font-family: var(--font-secondary);
+                    color: var(--color-ash);
+                }
+            }
+        }
+        .pricing-table-wrp{
+            display: flex;
+            justify-content: space-evenly;
+            .weekly-price-wrp{
+                border: 1px solid #E4E4E7;
+                border-radius: 6px;
+                padding: 31px 104px 20px 104px;
+                .duration{
+                    margin-bottom: 12px;
+                    span{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 30px;
+                        font-family: var(--font-secondary);
+                        color: var(--color-ash);
+                    }
+                }
+                .price{
+                    margin-bottom: 34px;
+                    h1{
+                        font-size: 58px;
+                        font-weight: 700;
+                        line-height: 72px;
+                        font-family: var(--font-primary4);
+                        color: var(--color-black);
+                        margin: 0;
+                    }
+                }
+                .less-then-duration-title{
+                    margin-bottom: 8px;
+                    h4{
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 32px;
+                        font-family: var(--font-secondary);
+                        color: var(--color-black);
+                        margin: 0;
+                    }
+                }
+                .less-then-duration-details{
+                    margin-bottom: 30px;
+                    p{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 32px;
+                        font-family: var(--font-secondary);
+                        color: var(--color-ash);
+                        margin: 0;
+                    }
+                }
+                .start-btn{
+                    .get-start{
+                        border: none;
+                        background-color: var(--color-black);
+                        color: var(--color-white);
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        font-family: var(--font-secondary);
+                    }
+                }
+            }
+        }
+    }
+}

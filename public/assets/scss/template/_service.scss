@@ -1,0 +1,319 @@
+/*-------------------------
+   Service Styles
+-------------------------*/
+
+
+
+.service-layout1{
+   padding: 148px 0 148px 0;
+   .service-area{
+      position: relative;
+      .sevice-img-1{
+         position: relative;
+         .play-btn{
+            position: absolute;
+            top: 36%;
+            left: 44%;
+            a{
+               font-size: 17px;
+               color: var(--color-ash);
+               border-radius: 50%;
+               padding: 18px 25px 18px 25px;
+               background-color: var(--color-white);
+               i{
+                  position: relative;
+                  top: 2px;
+                  left: 2px;
+               }
+               &:hover{
+                  background-color: #86E7B8;
+                  transition: var(--transition);
+               }
+            }
+         }
+         .demo-video-btn{
+            position: absolute;
+            top: 81%;
+            left: 33%;
+            a{
+               padding: 12px 30px;
+               border-radius: 12px;
+               border: 2px solid var(--color-ash);
+               background-color: var(--color-white);
+               i{
+                  font-size: 14px;
+                  font-weight: 600;
+                  position: relative;
+                  color: var(--color-ash);
+               }
+               span{
+                  font-size: 12.71px;
+                  font-weight: 600;
+                  line-height: 19.07px;
+                  font-family: var(--font-secondary);
+                  color: var(--color-ash);
+                  margin-left: 15px;
+               }
+            }
+         }
+         .service-shape-1{
+            position: absolute;
+            top: 66%;
+            right: 50px;
+         }
+      }
+      .service-details-wrp{
+         padding: 0 0 0 105px;
+         .service-title{
+            margin-bottom: 60px;
+            h2{
+               font-size: 48px;
+               font-weight: 600;
+               line-height: 60px;
+               font-family: var(--font-primary-8);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .service-details-title{
+            margin-bottom: 18px;
+            h4{
+               font-size: 21px;
+               font-weight: 600;
+               line-height: 26px;
+               font-family: var(--font-primary-8);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+         .service-details{
+            margin-bottom: 40px;
+            p{
+               font-size: 18px;
+               font-weight: 400;
+               line-height: 28px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+               margin: 0;
+            }
+         }
+      }
+      .service-shape-2{
+         position: absolute;
+         top: 72px;
+         left: 276px;
+      }
+   }
+}
+
+
+.service-layout2{
+   padding: 100px 0 120px;
+   .digital-agency-service{
+      .digital-agency-service-title{
+         text-align: center;
+         margin-bottom: 100px;
+         h1{
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 60px;
+            font-family: var(--font-secondary);
+            color: var(--color-ash);
+            margin: 0;
+         }
+      }
+      .digital-agency-service-details-wrp{
+         background-color:  #F8FBFD;
+         padding: 30px 36px 44px 30px;
+         display: flex;
+         border-radius: 12px;
+         margin-bottom: 24px;
+         .digital-agency-service-icon{
+            i{
+               font-size: 35px;
+               font-weight: 400;
+               color: #FF8A57;
+            }
+         }
+         .digital-agency-service-details{
+            padding-left: 30px;
+            .digital-agency-service-details-title{
+               margin-bottom: 18px;
+               h4{
+                  font-size: 24px;
+                  font-weight: 600;
+                  line-height: 36px;
+                  font-family: var(--font-primary-5);
+                  color: var(--color-ash);
+                  margin: 0;
+               }
+            }
+            .service-details-txt{
+               margin-bottom: 57px;
+               p{
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  font-family: var(--font-primary-5);
+                  color: var(--color-ash);
+                  margin: 0;
+               }
+            }
+            .discover-more-btn{
+               a{
+                  span{
+                     font-size: 16px;
+                     font-weight: 600;
+                     line-height: 24px;
+                     font-family: var(--font-secondary);
+                     color: var(--color-ash);
+                  }
+                  i{
+                     font-size: 16px;
+                     font-weight: 600;
+                     position: relative;
+                     top: 1px;
+                     margin-left: 10px;
+                     color: var(--color-ash);
+                  }
+               }
+               &:hover{
+                  span{
+                     transition: var(--transition);
+                     color: #FF8A57;
+                  }
+                  i{
+                     transition: var(--transition);
+                     color: #FF8A57;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+
+
+.service-layout3{
+   padding: 51px 0 77px;
+   .service-layout3-area{
+      .landing-3-services-wrp{
+         .timer-img{
+            margin-bottom: 30px;
+         }
+         .landing-3-services-title{
+            margin-bottom: 20px;
+            h5{
+               margin: 0;
+               a{
+                  font-size: 18px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  font-family: var(--font-secondary);
+                  color: var(--color-black);
+                  &:hover{
+                     color: #EF4444;
+                     transition: var(--transition);
+                  }
+               }
+            }
+         }
+         .landing-3-services-title-details{
+            p{
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 26px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+            }
+         }
+      }
+      .landing-3-services-wrp-2{
+         padding: 0 0 0 32px;
+         position: relative;
+         .timer-img{
+            margin-bottom: 30px;
+         }
+         .landing-3-services-title{
+            margin-bottom: 20px;
+            h5{
+               margin: 0;
+               a{
+                  font-size: 18px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  font-family: var(--font-secondary);
+                  color: var(--color-black);
+                  &:hover{
+                     color: #EF4444;
+                     transition: var(--transition);
+                  }
+               }
+            }
+         }
+         .landing-3-services-title-details{
+            p{
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 26px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+            }
+         }
+         &:before{
+            content: "";
+            position: absolute;
+            left: -37%;
+            bottom: 49%;
+            width: 55%;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: #E4E4E7
+         }
+      }
+      .landing-3-services-wrp-3{
+         padding: 0 0 0 80px;
+         position: relative;
+         .timer-img{
+            margin-bottom: 30px;
+         }
+         .landing-3-services-title{
+            margin-bottom: 20px;
+            h5{
+               margin: 0;
+               a{
+                  font-size: 18px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  font-family: var(--font-secondary);
+                  color: var(--color-black);
+                  &:hover{
+                     color: #EF4444;
+                     transition: var(--transition);
+                  }
+               }
+            }
+         }
+         .landing-3-services-title-details{
+            p{
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 26px;
+               font-family: var(--font-secondary);
+               color: var(--color-ash);
+            }
+         }
+         &:before{
+            content: "";
+            position: absolute;
+            left: -120px;
+            bottom: 110px;
+            width: 55%;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: #E4E4E7;
+         }
+      }
+   }
+}

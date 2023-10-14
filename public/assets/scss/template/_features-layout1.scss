@@ -1,0 +1,155 @@
+/*-------------------------
+   Features-Layout-1 Styles
+-------------------------*/
+
+
+
+.features-layout-1{
+   padding: 130px 0 155px 0;
+   .features-area{
+      .features-title{
+         margin-bottom: 100px;
+         h1{
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 60px;
+            color: var(--color-ash);
+            font-family: var(--font-primary-8);
+            margin: 0;
+         }
+      }
+      .features-title-details{
+         p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--color-ash);
+            font-family: var(--font-secondary);
+            margin: 0;
+         }
+      }
+      .our-features-wrp{
+         border: 2px solid var(--color-ash);
+         border-radius: 16px;
+         .our-features{
+            padding: 40px 0 40px 40px;
+            .features-img{
+               margin-bottom: 46px;
+            }
+            .our-features-title{
+               margin-bottom: 32px;
+               h3{
+                  a{
+                     font-size: 20px;
+                     font-weight: 700;
+                     line-height: 28px;
+                     color: var(--color-ash);
+                     font-family: var(--font-secondary);
+                     margin: 0;
+                     transition: var(--transition);
+                     &:hover{
+                        color: #86E7B8;
+                     }
+                  }
+               }
+            }
+            .our-features-title-details{
+               margin-bottom: 55px;
+               p{
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  color: var(--color-ash);
+                  font-family: var(--font-secondary);
+                  margin: 0;
+               }
+            }
+            .discover-more{
+               a{
+                  span{
+                     font-size: 16px;
+                     font-weight: 600;
+                     line-height: 24px;
+                     color: var(--color-ash);
+                     font-family: var(--font-secondary);
+                     margin: 0;
+                  }
+                  i{
+                     font-size: 16px;
+                     font-weight: 600;
+                     color: var(--color-ash);
+                     margin-left: 15px;
+                  }
+                  &:hover{
+                     span{
+                        color: #86E7B8;
+                        transition: var(--transition);
+                     }
+                     i{
+                        color: #86E7B8;
+                        transition: var(--transition);
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+
+.features-layout-2{
+   padding: 91px 0 121px;
+   .features-area-2{
+      .features-2-title{
+         margin-bottom: 72px;
+         h2{
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 60px;
+            color: var(--color-ash);
+            font-family: var(--font-primary-5);
+            margin: 0;
+         }
+      }
+      .features-2-details-wrp{
+         border: 2px solid var(--color-ash);
+         border-radius: 12px;
+         padding: 40px 45px;
+         .features-2-icon{
+            margin-bottom: 40px;
+            img{
+
+            }
+         }
+         .features-2-details-title{
+            margin-bottom: 20px;
+            h4{
+               margin: 0;
+               a{
+                  font-size: 20px;
+                  font-weight: 700;
+                  line-height: 28px;
+                  color: var(--color-ash);
+                  font-family: var(--font-secondary);
+                  margin: 0;
+                  transition: var(--transition);
+                  &:hover{
+                        color: #FF8A57;
+                  } 
+               }
+            }
+         }
+         .features-2-details{
+            p{
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 24px;
+               color: var(--color-ash);
+               font-family: var(--font-secondary);
+               margin: 0;
+            }
+         }
+      }
+   }
+}

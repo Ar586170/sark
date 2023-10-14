@@ -1,0 +1,48 @@
+{
+  "name": "sark",
+  "version": "1.0.0",
+  "description": "Agency HTML Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hasan8582596@bitbucket.org/Axilweb/abstrak.git"
+  },
+  "keywords": [
+    "agency"
+  ],
+  "author": "abc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/Axilweb/abstrak/issues"
+  },
+  "homepage": "https://bitbucket.org/Axilweb/abstrak#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "browserslist": "^4.20.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cssbeautify": "^3.0.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-image": "^6.3.1",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.52.1"
+  },
+  "browserslist": [
+    "> 2%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
+}

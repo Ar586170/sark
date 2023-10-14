@@ -1,0 +1,71 @@
+/*-------------------------
+Counterup-Layout1 Styles
+-------------------------*/
+
+
+
+.counterup-layout1{
+	background-color: #E5EEF5;
+	.counterup-area{
+		padding: 98px 0 98px 0;
+		.counterup-progress{
+			.h2{
+				margin: 0;
+				.number{
+					font-size: 72px;
+					font-weight: 500;
+					line-height: 80px;
+					font-family: var(--font-primary-8);
+					color: var(--color-ash);
+					margin-bottom: 10px;
+				}
+				.symbol{
+					font-size: 72px;
+					font-weight: 500;
+					line-height: 80px;
+					font-family: var(--font-primary-8);
+					color: var(--color-ash);
+					margin-left: -12px;
+				}
+			}
+			.title{
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 28px;
+				font-family: var(--font-secondary);
+				color: var(--color-ash);
+				margin: 0;
+			}
+		}
+		.counterup-progress-2{
+			padding: 0 0 0 75px;
+			.h2{
+				margin: 0;
+				.number{
+					font-size: 72px;
+					font-weight: 500;
+					line-height: 80px;
+					font-family: var(--font-primary-8);
+					color: var(--color-ash);
+					margin-bottom: 10px;
+				}
+				.symbol{
+					font-size: 72px;
+					font-weight: 500;
+					line-height: 80px;
+					font-family: var(--font-primary-8);
+					color: var(--color-ash);
+					margin-left: -12px;
+				}
+			}
+			.title{
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 28px;
+				font-family: var(--font-secondary);
+				color: var(--color-ash);
+				margin: 0;
+			}
+		}
+	}
+}
